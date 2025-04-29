@@ -1,0 +1,21 @@
+.hero {
+  position: relative;
+  height: 400px;
+  background: url('https://via.placeholder.com/1200x400') no-repeat center center/cover;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+.hero-text {
+  max-width: 50%;
+  color: black;
+}
+.hero-text h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.hero-text p {
+  font-size: 16px;
+  line-height: 1.5;
+}
