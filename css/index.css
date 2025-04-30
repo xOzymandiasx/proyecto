@@ -1,7 +1,9 @@
-.hero {
+/* .hero {
   position: relative;
   height: 400px;
-  background: url('https://via.placeholder.com/1200x400') no-repeat center center/cover;
+  background: url("../img/image.jpg")
+  no-repeat center center/cover;
+;
   color: white;
   display: flex;
   align-items: center;
@@ -18,4 +20,45 @@
 .hero-text p {
   font-size: 16px;
   line-height: 1.5;
+} */
+/* Reseteamos márgenes y padding por defecto */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hero {
+  position: relative;
+  height: 450px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../img/image.jpg") no-repeat center center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  color: white;
+  margin-bottom: 1rem;
+  margin: 1rem 1rem;
+  border-radius: 8px;
+}
+
+.hero-content {
+  text-align: center;
+  max-width: 800px; /* Limitamos el ancho del contenido para mejor legibilidad */
+}
+
+.hero-content h1 {
+  font-size: 3.5rem; /* Tamaño grande para el título */
+  font-weight: bold;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Sombra para contraste */
+  margin-bottom: 15px;
+}
+
+.hero-content p {
+  font-size: 1.2rem; /* Tamaño legible para el párrafo */
+  line-height: 1.6; /* Espaciado entre líneas */
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); /* Sombra más suave */
+  margin-bottom: 10px;
 }

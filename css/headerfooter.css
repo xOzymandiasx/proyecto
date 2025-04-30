@@ -143,7 +143,10 @@ footer {
   justify-content: space-between;
   padding: 20px;
   background-color: #e0e0e0;
+  margin: 0 1rem;
+  border-radius: 8px;
 }
+
 .footer-section {
   flex: 1;
   margin: 0 10px;
@@ -160,8 +163,7 @@ footer {
 }
 .newsletter input[type="email"] {
   padding: 5px;
-  width: 70%;
-  margin-right: 10px;
+  width: 84%;
 }
 .newsletter button {
   padding: 5px 10px;
