@@ -1,27 +1,3 @@
-/* .hero {
-  position: relative;
-  height: 400px;
-  background: url("../img/image.jpg")
-  no-repeat center center/cover;
-;
-  color: white;
-  display: flex;
-  align-items: center;
-  padding: 20px;
-}
-.hero-text {
-  max-width: 50%;
-  color: black;
-}
-.hero-text h1 {
-  font-size: 24px;
-  margin-bottom: 10px;
-}
-.hero-text p {
-  font-size: 16px;
-  line-height: 1.5;
-} */
-/* Reseteamos márgenes y padding por defecto */
 * {
   margin: 0;
   padding: 0;
@@ -43,22 +19,6 @@
   border-radius: 8px;
 }
 
-.hero-content {
-  text-align: center;
-  max-width: 800px; /* Limitamos el ancho del contenido para mejor legibilidad */
-}
-
-.hero-content h1 {
-  font-size: 3.5rem; /* Tamaño grande para el título */
-  font-weight: bold;
-  text-transform: uppercase;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Sombra para contraste */
-  margin-bottom: 15px;
-}
-
-.hero-content p {
-  font-size: 1.2rem; /* Tamaño legible para el párrafo */
-  line-height: 1.6; /* Espaciado entre líneas */
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); /* Sombra más suave */
-  margin-bottom: 10px;
+.hero-text {
+  line-height: 2rem;
 }
