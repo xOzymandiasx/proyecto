@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -193,6 +194,7 @@
     <link rel="stylesheet" href="css/headerfooter.css">
     <link rel="stylesheet" href="css/nosotros.css">
 </head>
+
 <body>
     <?php include 'header.php'; ?>
 
@@ -238,11 +240,30 @@
 
             <h3>Nuestro Equipo y Tecnología</h3>
             <div class="galeria">
-                <img src="https://via.placeholder.com/300x200?text=Equipo+SCA" alt="Equipo SCA">
-                <img src="https://via.placeholder.com/300x200?text=Maquinaria+CNC" alt="Maquinaria CNC">
-                <img src="https://via.placeholder.com/300x200?text=Pantógrafo+Láser" alt="Pantógrafo Láser">
-                <img src="https://via.placeholder.com/300x200?text=Instalaciones" alt="Instalaciones">
+                <div class="galeria-item">
+                    <img src="./img/instalaciones.jpg" alt="Instalaciones">
+                    <div class="titulo">Instalaciones</div>
+                </div>
+                <div class="galeria-item">
+                    <img src="./img/equipo.jpg" alt="Equipos">
+                    <div class="titulo">Equipos</div>
+                </div>
+                <div class="galeria-item">
+                    <img src="./img/maquinaria1.jpg" alt="Instalaciones">
+                    <div class="titulo">Pantógrafo Láser</div>
+                </div>
+                <div class="galeria-item">
+                    <img src="./img/maquinaria2.jpg" alt="Equipos">
+                    <div class="titulo">Instalaciones</div>
+                </div>
             </div>
+
+            <!-- <div class="galeria">
+                <img src="./img/equipo.jpg" alt="Equipo SCA">
+                <img src="./img/maquinaria1.jpg" alt="Maquinaria CNC">
+                <img src="./img/maquinaria2.jpg" alt="Pantógrafo Láser">
+                <img src="./img/instalaciones.jpg" alt="Instalaciones">
+            </div> -->
 
             <div class="nosotros-cta">
                 <a href="contacto.html" class="login-btn">Contáctanos</a>
@@ -250,7 +271,7 @@
         </div>
     </section>
 
-    <?php include 'footer.php'?>
+    <?php include 'footer.php' ?>
 
     <!-- <footer>
         <div class="footer-section">
@@ -284,4 +305,5 @@
     <!-- Incluir Font Awesome para íconos -->
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
