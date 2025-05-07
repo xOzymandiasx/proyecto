@@ -9,6 +9,7 @@
             <li><a href="productos.php">Productos</a></li>
             <li><a href="servicios.php">Servicios</a></li>
             <li><a href="cloudiot.php">Nube Iot</a></li>
+            <li><a href="contacto.php">Contacto</a></li>
         </ul>
     </nav>
     <a href="crud/login.php" class="login-btn">INGRESAR</a>
