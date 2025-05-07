@@ -132,8 +132,8 @@
 
     <section class="hero">
         <div class="hero-text">
-            <h1>Somos una Pyme que desarrolla, fabrica e integra maquinaria y equipos de Máquina CNC y Pantógrafos Láser</h1>
-            <p>Tenemos un amplio stock de repuestos y partes para satisfacer la segunda inversión y area especializada para realizar los mantenimientos y la asistencia de todos los productos.</p>
+            <h1>Somos una Pyme que desarrolla, fabrica e integra sistemas electronicos con maquinaria, equipos CNC y Pantógrafos Láser CO2 y DIODO</h1>
+            <h3>Tenemos un amplio stock de Pantografos Lases y repuestos ademas de nuestra seccion de Servicio Tecnico para satisfacer su inversión con la garantia de PostVenta de todos los productos.</h3>
         </div>
     </section>
 
