@@ -50,6 +50,7 @@ nav ul li a {
 footer {
   display: flex;
   justify-content: space-between;
+  text-align: center;
   padding: 20px;
   background-color: #e0e0e0;
   margin: 1rem 1rem;
